@@ -100,3 +100,12 @@ main:has(#check16:focus) .game .card16 {
     height: 1px;
     overflow: hidden;
 }
+
+@media screen and (max-width: 640px) {
+    main {
+        width: 320px;
+        height: 400px;
+        overflow: hidden;
+        padding: 5px 5px;
+    }
+}
